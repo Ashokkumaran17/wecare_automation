@@ -1,4 +1,4 @@
-from wecare_automation.calculator import add
+from wecare_automation.src.calculator import add,subtract,multiply
 import pytest
 
 
