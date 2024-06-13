@@ -6,4 +6,4 @@ RUN apt-get update && \
 COPY requirements.txt ./
 
 RUN pip install --no-cache-dir -r requirements.txt
-RUN ["pytest", "-v", "--junitxml=reports/result.xml"]
+RUN ["pytest", "-v", "test/test_addition.py","--junitxml=reports/result.xml"]
