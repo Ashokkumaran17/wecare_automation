@@ -7,5 +7,5 @@ RUN apt-get update && \
     apt-get install unzip groff -y
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
-CMD ['python3','-m','pytest','-v','./test_calc.py']
+
 
