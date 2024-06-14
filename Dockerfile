@@ -1,4 +1,6 @@
 FROM python:3.12.0
+WORKDIR /mycalc
+COPY . /mycalc
 RUN pip install --upgrade pip && \
     pip install -U setuptools==70.0.0
 RUN apt-get update && \
