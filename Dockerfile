@@ -1,4 +1,4 @@
-FROM python:3.12.0
+FROM python:3.12-slim
 WORKDIR /mycalc
 COPY . /mycalc
 RUN pip install --upgrade pip && \
