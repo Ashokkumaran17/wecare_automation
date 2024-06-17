@@ -1,6 +1,6 @@
 FROM python:3.12-slim
-WORKDIR /mycalc
-COPY . /mycalc
+WORKDIR /app
+COPY . /app
 RUN pip install --upgrade pip && \
     pip install -U setuptools==70.0.0
 COPY requirements.txt ./
