@@ -1,1 +1,1 @@
-from src.calculator import *
+from src.calculator import add,subtract,multiply
