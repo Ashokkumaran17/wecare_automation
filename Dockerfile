@@ -3,7 +3,6 @@ WORKDIR /app
 COPY src /app
 COPY  test /app
 COPY  Dockerfile /app
-COPY  __int__.py /app
 COPY  requirements.txt /app
 RUN pip install --upgrade pip && \
     pip install -U setuptools==70.0.0
