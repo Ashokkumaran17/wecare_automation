@@ -7,7 +7,7 @@ COPY  requirements.txt /app
 RUN pip install --upgrade pip && \
     pip install -U setuptools==70.0.0
 RUN pip install -r requirements.txt
-RUN pytest -v /app/test/test_calc.py
+RUN pytest -v ./test/test_calc.py
 
 
 
